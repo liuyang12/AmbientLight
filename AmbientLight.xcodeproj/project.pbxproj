@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FA7ED8527E90BFB0057CB57 /* AmbientLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7ED8427E90BFB0057CB57 /* AmbientLightApp.swift */; };
+		2FA7ED8727E90BFB0057CB57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7ED8627E90BFB0057CB57 /* ContentView.swift */; };
+		2FA7ED8927E90BFD0057CB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA7ED8827E90BFD0057CB57 /* Assets.xcassets */; };
+		2FA7ED8C27E90BFD0057CB57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FA7ED8B27E90BFD0057CB57 /* Preview Assets.xcassets */; };
+		2FA7ED9727E90BFD0057CB57 /* AmbientLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7ED9627E90BFD0057CB57 /* AmbientLightTests.swift */; };
+		2FA7EDA127E90BFD0057CB57 /* AmbientLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7EDA027E90BFD0057CB57 /* AmbientLightUITests.swift */; };
+		2FA7EDA327E90BFD0057CB57 /* AmbientLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA7EDA227E90BFD0057CB57 /* AmbientLightUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FA7ED9327E90BFD0057CB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA7ED7927E90BFB0057CB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA7ED8027E90BFB0057CB57;
+			remoteInfo = AmbientLight;
+		};
+		2FA7ED9D27E90BFD0057CB57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FA7ED7927E90BFB0057CB57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FA7ED8027E90BFB0057CB57;
+			remoteInfo = AmbientLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FA7ED8127E90BFB0057CB57 /* AmbientLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA7ED8427E90BFB0057CB57 /* AmbientLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightApp.swift; sourceTree = "<group>"; };
+		2FA7ED8627E90BFB0057CB57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FA7ED8827E90BFD0057CB57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FA7ED8B27E90BFD0057CB57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FA7ED8D27E90BFD0057CB57 /* AmbientLight.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmbientLight.entitlements; sourceTree = "<group>"; };
+		2FA7ED9227E90BFD0057CB57 /* AmbientLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbientLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA7ED9627E90BFD0057CB57 /* AmbientLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightTests.swift; sourceTree = "<group>"; };
+		2FA7ED9C27E90BFD0057CB57 /* AmbientLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmbientLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA7EDA027E90BFD0057CB57 /* AmbientLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightUITests.swift; sourceTree = "<group>"; };
+		2FA7EDA227E90BFD0057CB57 /* AmbientLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FA7ED7E27E90BFB0057CB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED8F27E90BFD0057CB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED9927E90BFD0057CB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FA7ED7827E90BFB0057CB57 = {
+			isa = PBXGroup;
+			children = (
+				2FA7ED8327E90BFB0057CB57 /* AmbientLight */,
+				2FA7ED9527E90BFD0057CB57 /* AmbientLightTests */,
+				2FA7ED9F27E90BFD0057CB57 /* AmbientLightUITests */,
+				2FA7ED8227E90BFB0057CB57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FA7ED8227E90BFB0057CB57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7ED8127E90BFB0057CB57 /* AmbientLight.app */,
+				2FA7ED9227E90BFD0057CB57 /* AmbientLightTests.xctest */,
+				2FA7ED9C27E90BFD0057CB57 /* AmbientLightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FA7ED8327E90BFB0057CB57 /* AmbientLight */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7ED8427E90BFB0057CB57 /* AmbientLightApp.swift */,
+				2FA7ED8627E90BFB0057CB57 /* ContentView.swift */,
+				2FA7ED8827E90BFD0057CB57 /* Assets.xcassets */,
+				2FA7ED8D27E90BFD0057CB57 /* AmbientLight.entitlements */,
+				2FA7ED8A27E90BFD0057CB57 /* Preview Content */,
+			);
+			path = AmbientLight;
+			sourceTree = "<group>";
+		};
+		2FA7ED8A27E90BFD0057CB57 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7ED8B27E90BFD0057CB57 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FA7ED9527E90BFD0057CB57 /* AmbientLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7ED9627E90BFD0057CB57 /* AmbientLightTests.swift */,
+			);
+			path = AmbientLightTests;
+			sourceTree = "<group>";
+		};
+		2FA7ED9F27E90BFD0057CB57 /* AmbientLightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FA7EDA027E90BFD0057CB57 /* AmbientLightUITests.swift */,
+				2FA7EDA227E90BFD0057CB57 /* AmbientLightUITestsLaunchTests.swift */,
+			);
+			path = AmbientLightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FA7ED8027E90BFB0057CB57 /* AmbientLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA7EDA627E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLight" */;
+			buildPhases = (
+				2FA7ED7D27E90BFB0057CB57 /* Sources */,
+				2FA7ED7E27E90BFB0057CB57 /* Frameworks */,
+				2FA7ED7F27E90BFB0057CB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmbientLight;
+			productName = AmbientLight;
+			productReference = 2FA7ED8127E90BFB0057CB57 /* AmbientLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FA7ED9127E90BFD0057CB57 /* AmbientLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA7EDA927E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLightTests" */;
+			buildPhases = (
+				2FA7ED8E27E90BFD0057CB57 /* Sources */,
+				2FA7ED8F27E90BFD0057CB57 /* Frameworks */,
+				2FA7ED9027E90BFD0057CB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA7ED9427E90BFD0057CB57 /* PBXTargetDependency */,
+			);
+			name = AmbientLightTests;
+			productName = AmbientLightTests;
+			productReference = 2FA7ED9227E90BFD0057CB57 /* AmbientLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FA7ED9B27E90BFD0057CB57 /* AmbientLightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FA7EDAC27E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLightUITests" */;
+			buildPhases = (
+				2FA7ED9827E90BFD0057CB57 /* Sources */,
+				2FA7ED9927E90BFD0057CB57 /* Frameworks */,
+				2FA7ED9A27E90BFD0057CB57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FA7ED9E27E90BFD0057CB57 /* PBXTargetDependency */,
+			);
+			name = AmbientLightUITests;
+			productName = AmbientLightUITests;
+			productReference = 2FA7ED9C27E90BFD0057CB57 /* AmbientLightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FA7ED7927E90BFB0057CB57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					2FA7ED8027E90BFB0057CB57 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					2FA7ED9127E90BFD0057CB57 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 2FA7ED8027E90BFB0057CB57;
+					};
+					2FA7ED9B27E90BFD0057CB57 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 2FA7ED8027E90BFB0057CB57;
+					};
+				};
+			};
+			buildConfigurationList = 2FA7ED7C27E90BFB0057CB57 /* Build configuration list for PBXProject "AmbientLight" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FA7ED7827E90BFB0057CB57;
+			productRefGroup = 2FA7ED8227E90BFB0057CB57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FA7ED8027E90BFB0057CB57 /* AmbientLight */,
+				2FA7ED9127E90BFD0057CB57 /* AmbientLightTests */,
+				2FA7ED9B27E90BFD0057CB57 /* AmbientLightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FA7ED7F27E90BFB0057CB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA7ED8C27E90BFD0057CB57 /* Preview Assets.xcassets in Resources */,
+				2FA7ED8927E90BFD0057CB57 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED9027E90BFD0057CB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED9A27E90BFD0057CB57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA7ED7D27E90BFB0057CB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA7ED8727E90BFB0057CB57 /* ContentView.swift in Sources */,
+				2FA7ED8527E90BFB0057CB57 /* AmbientLightApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED8E27E90BFD0057CB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA7ED9727E90BFD0057CB57 /* AmbientLightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA7ED9827E90BFD0057CB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA7EDA327E90BFD0057CB57 /* AmbientLightUITestsLaunchTests.swift in Sources */,
+				2FA7EDA127E90BFD0057CB57 /* AmbientLightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FA7ED9427E90BFD0057CB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA7ED8027E90BFB0057CB57 /* AmbientLight */;
+			targetProxy = 2FA7ED9327E90BFD0057CB57 /* PBXContainerItemProxy */;
+		};
+		2FA7ED9E27E90BFD0057CB57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FA7ED8027E90BFB0057CB57 /* AmbientLight */;
+			targetProxy = 2FA7ED9D27E90BFD0057CB57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FA7EDA427E90BFD0057CB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FA7EDA527E90BFD0057CB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2FA7EDA727E90BFD0057CB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AmbientLight/AmbientLight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientLight/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2FA7EDA827E90BFD0057CB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AmbientLight/AmbientLight.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AmbientLight/Preview Content\"";
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2FA7EDAA27E90BFD0057CB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmbientLight.app/Contents/MacOS/AmbientLight";
+			};
+			name = Debug;
+		};
+		2FA7EDAB27E90BFD0057CB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmbientLight.app/Contents/MacOS/AmbientLight";
+			};
+			name = Release;
+		};
+		2FA7EDAD27E90BFD0057CB57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AmbientLight;
+			};
+			name = Debug;
+		};
+		2FA7EDAE27E90BFD0057CB57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQ8DM4F3DS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = screencam.AmbientLightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AmbientLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FA7ED7C27E90BFB0057CB57 /* Build configuration list for PBXProject "AmbientLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA7EDA427E90BFD0057CB57 /* Debug */,
+				2FA7EDA527E90BFD0057CB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA7EDA627E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA7EDA727E90BFD0057CB57 /* Debug */,
+				2FA7EDA827E90BFD0057CB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA7EDA927E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA7EDAA27E90BFD0057CB57 /* Debug */,
+				2FA7EDAB27E90BFD0057CB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FA7EDAC27E90BFD0057CB57 /* Build configuration list for PBXNativeTarget "AmbientLightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA7EDAD27E90BFD0057CB57 /* Debug */,
+				2FA7EDAE27E90BFD0057CB57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FA7ED7927E90BFB0057CB57 /* Project object */;
+}
