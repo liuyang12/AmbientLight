@@ -1,0 +1,11 @@
+framework module DarkModeBuddyCore {
+  umbrella header "DarkModeBuddyCore.h"
+
+  export *
+  module * { export * }
+}
+
+module DarkModeBuddyCore.Swift {
+    header "DarkModeBuddyCore-Swift.h"
+    requires objc
+}
