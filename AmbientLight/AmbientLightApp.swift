@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import DarkModeBuddyCore
 
 @main
 struct AmbientLightApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(lightReader: DMBAmbientLightSensorReader(frequency: .realtime))
         }
     }
 }
