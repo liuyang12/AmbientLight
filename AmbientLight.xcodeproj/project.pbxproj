@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		2F82948727EA5476000C5D01 /* UnsupportedSensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsupportedSensorView.swift; sourceTree = "<group>"; };
 		2F961EBD27E974A500E5A4EE /* DarkModeBuddyCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DarkModeBuddyCore.framework; sourceTree = "<group>"; };
+		2F98A1A02805F53200AD011E /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		2FA7ED8127E90BFB0057CB57 /* AmbientLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmbientLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA7ED8427E90BFB0057CB57 /* AmbientLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightApp.swift; sourceTree = "<group>"; };
 		2FA7ED8627E90BFB0057CB57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		2FA7ED7827E90BFB0057CB57 = {
 			isa = PBXGroup;
 			children = (
+				2F98A1A02805F53200AD011E /* readme.md */,
 				2FA7EDAF27E90C450057CB57 /* Vendor */,
 				2FA7ED8327E90BFB0057CB57 /* AmbientLight */,
 				2FA7ED8227E90BFB0057CB57 /* Products */,
